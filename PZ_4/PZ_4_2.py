@@ -13,6 +13,6 @@ k = 0
 p = 1 
 
 while p <= n:
-    p *= 3 
-    k += 1 
+    p = p * 3   
+    k = k + 1   
 print("k =", k)
