@@ -7,9 +7,9 @@ def print_forty_symbols(symbol):
         count = count + 1
     print()
 
-user_symbol = input("Введите один символ: ")
-while len(user_symbol) != 1:
+u = input("Введите один символ: ")
+while len(u) != 1:
     print("Непрваельно ввели! Нужен ровно один символ. ")
-    user_symbol = input("Введите один символ: ")
+    u = input("Введите один символ: ")
 
-print_forty_symbols(user_symbol)
+print_forty_symbols(u)
