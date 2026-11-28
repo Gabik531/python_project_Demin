@@ -5,15 +5,15 @@
 
 import random
 
-n = int(input('Введите чётный размер списка: '))
+n = int(input"Введите чётный размер списка: "))
 a = []
 for i in range(n):
     a.append(random.randint(-100, 100))
 
-print('Исходный список:', a)
+print("Исходный список:", a)
 
 b = []
 for i in range(1, n, 2):
     b.append(a[i])
 
-print('Результирующий список:', b)
+print("Результирующий список:", b)

@@ -5,16 +5,16 @@
 
 
 
-s = input('Введите полное имя файла: ')
-print('Исходная строка:', s)
+s = input("Введите полное имя файла: ")
+print("Исходная строка:", s)
 
-parts = s.split('\\')
+parts = s.split("\\")
 
 if len(parts) == 2:
-    result = '\\'
+    result = "\\"
 elif len(parts) > 2:
     result = parts[1]
 else:
-    result = 'Ошибка: введите полный путь к файлу.'
+    result = "Ошибка: введите полный путь к файлу."
 
-print('Результирующая строка:', result)
+print("Результирующая строка:", result)
