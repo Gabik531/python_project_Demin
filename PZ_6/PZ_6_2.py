@@ -11,14 +11,12 @@ try:
     r = float(input('Введите число R: '))
 
     if n > 0:
-        # Формирование исходного списка.
         a = []
         for i in range(n):
             a.append(random.randint(-100, 100))
 
         print('Исходный список:', a)
 
-        # Поиск элемента с наименьшим расстоянием до R.
         nearest = a[0]
         for element in a:
             if abs(element - r) < abs(nearest - r):
